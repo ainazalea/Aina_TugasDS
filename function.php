@@ -1,7 +1,7 @@
 <?php
 
 //membuat konkesi
-
+//inventory adalah nama database yang telah dibuat sebelumnya
 $koneksi= mysqli_connect("localhost","root","","inventory");
 function query($query) {
 
